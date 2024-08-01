@@ -1,5 +1,3 @@
-import {ReactElement} from "react";
-
 export type LinkDoc = {
     title: string,
     link: string,
@@ -9,5 +7,5 @@ export type LinkDoc = {
 export type NavLinkIntro = {
     title: string,
     link: string,
-    icon?: string
+    icon: string
 }
